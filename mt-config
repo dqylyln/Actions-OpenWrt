@@ -1,0 +1,92 @@
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7621=y
+CONFIG_TARGET_ramips_mt7621_DEVICE_glinet_gl-mt1300=y
+CONFIG_LIBCURL_COOKIES=y
+CONFIG_LIBCURL_FILE=y
+CONFIG_LIBCURL_FTP=y
+CONFIG_LIBCURL_HTTP=y
+CONFIG_LIBCURL_MBEDTLS=y
+CONFIG_LIBCURL_NO_SMB="!"
+CONFIG_LIBCURL_PROXY=y
+CONFIG_PACKAGE_boost=y
+CONFIG_PACKAGE_boost-program_options=y
+CONFIG_PACKAGE_boost-system=y
+CONFIG_PACKAGE_brook=y
+CONFIG_PACKAGE_ca-bundle=y
+CONFIG_PACKAGE_chinadns-ng=y
+CONFIG_PACKAGE_coreutils-nohup=y
+CONFIG_PACKAGE_curl=y
+# CONFIG_PACKAGE_etherwake is not set
+CONFIG_PACKAGE_haproxy=y
+CONFIG_PACKAGE_ipt2socks=y
+CONFIG_PACKAGE_iputils-arping=y
+CONFIG_PACKAGE_kcptun-client=y
+CONFIG_PACKAGE_kmod-fast-classifier=y
+# CONFIG_PACKAGE_kmod-ipt-offload is not set
+# CONFIG_PACKAGE_kmod-nf-flow is not set
+CONFIG_PACKAGE_kmod-shortcut-fe=y
+CONFIG_PACKAGE_libatomic=y
+CONFIG_PACKAGE_libcurl=y
+CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_liblua5.3=y
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libnss=y
+CONFIG_PACKAGE_libreadline=y
+CONFIG_PACKAGE_libsqlite3=y
+CONFIG_PACKAGE_libstdcpp=y
+CONFIG_PACKAGE_libsysfs=y
+CONFIG_PACKAGE_luci-app-advancedsetting=y
+# CONFIG_PACKAGE_luci-app-autoreboot is not set
+# CONFIG_PACKAGE_luci-app-flowoffload is not set
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ChinaDNS_NG=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy=y
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Server is not set
+# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Server is not set
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_fuse-utils is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+CONFIG_PACKAGE_luci-app-serverchan=y
+CONFIG_PACKAGE_luci-app-sfe=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+CONFIG_PACKAGE_luci-app-uhttpd=y
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-webadmin is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-i18n-advancedsetting-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-sfe-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-uhttpd-zh-cn=y
+CONFIG_PACKAGE_luci-theme-argon_new=y
+CONFIG_PACKAGE_naiveproxy=y
+CONFIG_PACKAGE_nspr=y
+# CONFIG_PACKAGE_simple-obfs is not set
+CONFIG_PACKAGE_ssocks=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_trojan-plus=y
+CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_v2ray=y
+# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_vsftpd-alt is not set
+# CONFIG_PACKAGE_wol is not set
+CONFIG_PACKAGE_xray=y
+CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
+CONFIG_SQLITE3_FTS3=y
+CONFIG_SQLITE3_FTS4=y
+CONFIG_SQLITE3_FTS5=y
+CONFIG_SQLITE3_JSON1=y
+CONFIG_SQLITE3_RTREE=y
+CONFIG_V2RAY_COMPRESS_UPX=y
+CONFIG_V2RAY_EXCLUDE_ASSETS=y
+CONFIG_V2RAY_EXCLUDE_V2CTL=y
+CONFIG_XRAY_COMPRESS_UPX=y
+CONFIG_XRAY_EXCLUDE_ASSETS=y
+CONFIG_boost-compile-visibility-hidden=y
+CONFIG_boost-runtime-shared=y
+CONFIG_boost-static-and-shared-libs=y
+CONFIG_boost-variant-release=y
