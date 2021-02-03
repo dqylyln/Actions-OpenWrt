@@ -11,7 +11,7 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 #### add ext luci-app
 git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
 git clone https://github.com/kenzok8/small package/small
-#git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
+git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 git clone https://github.com/zzsj0928/luci-app-serverchand package/luci-app-serverchand
 
 #### add theme
