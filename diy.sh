@@ -13,7 +13,7 @@ git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
 #### passwall depend
 git clone https://github.com/kenzok8/small package/small
 #### xray core
-git clone https://github.com/XTLS/Xray-core package/Xray-core
+#git clone https://github.com/XTLS/Xray-core package/Xray-core
 ### serverchan WX
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 ### serverchan dingTalk
