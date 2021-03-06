@@ -20,6 +20,12 @@ git clone https://github.com/zzsj0928/luci-app-serverchand package/luci-app-serv
 #git clone https://github.com/openwrt-develop/luci-theme-atmaterial package/luci-theme-atmaterial
 #git clone https://github.com/apollo-ng/luci-theme-darkmatter.git
 
+### fix shadowsocksr-libev
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-vssr/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-vssr/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
+
 #### update and install feeds
 ./scripts/feeds update -a
 ./scripts/feeds install
