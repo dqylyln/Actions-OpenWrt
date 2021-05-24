@@ -10,14 +10,21 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 
 #### add ext luci-app
 git clone https://github.com/kenzok8/openwrt-packages package/openwrt-packages
+
 #### ext passwall depend
 git clone https://github.com/kenzok8/small package/small
 
 #### remove ext for customize import conflict plugins
 rm -rf package/openwrt-packages/luci-app-ssr-plus
 rm -rf package/openwrt-packages/luci-app-jd-dailybonus
+## for vssr 
+rm -rf package/openwrt-packages/lua-maxminddb
+rm -rf package/openwrt-packages/luci-app-vssr
 
 ####================= customize import plugins =================############
+#### vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 #### hello world
 git clone https://github.com/fw876/helloworld package/helloworld
 ### serverchan WX
